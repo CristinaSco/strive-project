@@ -1,0 +1,155 @@
+/* font-family: 'Dosis', sans-serif; 300 600 */
+/* font-family: 'Pangolin', cursive; */
+/* font-family: 'Open Sans Condensed', sans-serif; */
+body{
+  padding:0;
+  margin:0;
+}
+
+.container{
+  padding:40px 80px 0 80px;
+}
+
+.one{
+  background-color: #dee2ff;
+}
+
+.two{
+  background-color: white;
+}
+
+.three{
+  background-color: #dee2ff;
+}
+
+h2{
+  font-family: 'Pangolin', cursive;
+  color:black;
+  letter-spacing: 3px;
+}
+
+.presentation{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.whoAmI h2{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 300;
+  font-size:50px;
+}
+
+h1{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+  font-size:70px;
+}
+
+.photo{
+  margin-left:50px;
+}
+
+.photoTwo{
+  margin-right:50px;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+}
+
+h3{
+  display: inline-block;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+  font-size:30px;
+  margin-left:10px;
+  letter-spacing: 2px;
+}
+
+.dash{
+  font-size:50px;
+  color:#cbc0d3;
+}
+
+p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:black;
+  font-size: 25px;
+}
+
+.email,.number{
+margin-bottom:20px;
+border-bottom: 2px solid #8e9aaf;
+padding:20px 0;
+}
+
+.contacts span{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #8e9aaf;
+  font-size:20px;
+}
+
+.socials{
+  text-align:center;
+}
+
+.social{
+  height:70px;
+  border-radius: 20px;
+}
+
+.social:hover{
+  background-color: #dee2ff;
+}
+
+.second{
+  flex-direction: column;
+  align-items: baseline;
+  text-align: center;
+}
+
+.hobbies,.experience{
+  padding:0 200px 60px 200px;
+}
+
+button{
+  background-color: #cbc0d3;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+  letter-spacing: 3px;
+  padding:10px 40px;
+  border:none;
+  border-radius: 20px;
+  cursor:pointer;
+}
+
+button:hover{
+  opacity:0.5;
+}
+
+.button{text-align: center;}
+
+
+@media screen and (max-width:991px){
+
+  .container{padding:40px;}
+
+  .photo,.photoTwo{display: none;}
+
+  .presentation{text-align:center;}
+
+  h2{font-size:15px;}
+
+  .whoAmI h2{font-size:30px;}
+
+  h1{font-size:50px;}
+
+  .content{text-align:center;}
+
+  .hobbies,.experience{padding:0;}
+}
